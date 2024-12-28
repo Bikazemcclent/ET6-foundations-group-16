@@ -1,4 +1,4 @@
-# CodoGex
+# Group 16
 
 ## Project Overview
 
