@@ -13,7 +13,7 @@ Author: GitHub Copilot
 """
 
 import unittest
-from solutions.add_numbers import add_numbers
+from ..add_numbers import add_numbers
 
 
 class TestAddNumbers(unittest.TestCase):
