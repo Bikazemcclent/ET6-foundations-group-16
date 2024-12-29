@@ -8,23 +8,24 @@ Module contents:
 
 """
 
+
 def add_numbers(num1, num2):
     """Returns the sum of two numbers.
-    
+
     Takes two numbers (integers or floats) and returns their sum.
     The output type will match the input types (i.e., if both inputs are integers, the
     output will be an integer; if both are floats, the output will be a float).
     If the inputs are not both integers or floats, an AssertionError is raised.
-    
+
     Parameters:
         num1: int or float, the first number to add
         num2: int or float, the second number to add
-        
+
     Returns -> int or float: the sum of num1 and num2
-    
+
     Raises:
         AssertionError: if inputs are not both int or float
-    
+
     Examples:
         >>> add_numbers(5, 3)
         8

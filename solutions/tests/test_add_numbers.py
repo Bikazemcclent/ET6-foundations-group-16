@@ -15,6 +15,7 @@ Author: GitHub Copilot
 import unittest
 from solutions.add_numbers import add_numbers
 
+
 class TestAddNumbers(unittest.TestCase):
     """Test suite for the add_numbers function."""
 
@@ -47,5 +48,6 @@ class TestAddNumbers(unittest.TestCase):
         with self.assertRaises(AssertionError):
             add_numbers("5", 5)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     unittest.main()
